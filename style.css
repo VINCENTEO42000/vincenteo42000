@@ -124,6 +124,10 @@ body {
     align-items: flex-end;
 }
 
+.align-content-end {
+    align-items: flex-end;
+}
+
 .align-around {
     align-self: space-around;
 }
@@ -393,11 +397,11 @@ body {
 
 /*classe bouton*/
 .btn {
-    background-color:#FFEEC7;
-    color:#06744D;
-    padding: 5px 15px;
+    background-color :#3C558D;
+    color:white;
+    padding: 15px 15px;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 .btn-primary {
@@ -454,10 +458,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #06744D ;
+    background-color:#3C558D  ;
     color : #FFEEC7 ;
     height: 20vH;
-    z-index: 100;
+    z-index: 50;
 }
 
 #main {
@@ -470,7 +474,7 @@ header {
 /* section hero*/
 
 .section-hero {
-    background-image: url(asset/sneaker.png);
+    background-image: url(assets/pexels-kampus-6765024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -481,7 +485,7 @@ header {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 50px;
     font-weight: 300;
 }
 
@@ -586,7 +590,7 @@ h3 {
 /* footer*/
 
 .footer {
-    background-color :#06744D;
+    background-color :#3C558D;
     color:#FFEEC7;
 }
 
@@ -701,4 +705,18 @@ span.noire {
 
 .bold {
     font-weight: 900;
+}
+
+.BLEU {
+    color: #3C558D;
+}
+
+.ROUGE {
+    color : #E1322D ;
+}
+
+
+
+.position-titre {
+    transform : translate(0, 300px) ;
 }
